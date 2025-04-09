@@ -66,8 +66,22 @@ public class Main {
         } else {
             System.out.println("В вагоне мест нет");
         }
+        // task7
+        int one = 115;
+        int two = 75;
+        int three = 365;
 
+        if (one > two && one > three) {
+            System.out.println("Число " + one + " наибольшее");
+        } else if (two > one && two > three) {
+            System.out.println("Число " + two + " наибольшее");
+        } else if (three > one && three > two) {
+            System.out.println("Число " + three + " наибольшее");
+        }
+
+        }
 
     }
-}
+
+
 

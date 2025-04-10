@@ -23,17 +23,14 @@ public class Main {
         }
 
         // task4
-        int age1 = 59;
+        int age1 = 24;
         if (age1 >= 2 && age1 <= 6) {
             System.out.println("Если возраст человека равен " + age1 + ", то ему нужно ходить в детский сад");
-        }
-        if (age1 >= 7 && age1 <= 17) {
+        } else if (age1 >= 7 && age1 <= 17) {
             System.out.println("Если возраст человека равен " + age1 + ", то ему нужно ходить в школу");
-        }
-        if (age1 >= 18 && age1 <= 24) {
+        } else if (age1 >= 18 && age1 <= 24) {
             System.out.println("Если возраст человека равен " + age1 + ", то ему нужно ходить в университет");
-        }
-        if (age1 >= 24) {
+        } else if (age1 >= 24) {
             System.out.println("Если возраст человека равен " + age1 + ", то ему нужно ходить на работу");
         }
         // task5

@@ -15,13 +15,13 @@ public class Main {
             System.out.println("На улице " + temperature + " можно идти без шапки");
         }
         // task3
-        int speed = 55;
+        int speed = 61;
         if (speed > 60) {
             System.out.println("Если скорость " + speed + ",то придется заплатить штраф");
-        }
-        if (speed < 60) {
+        } else if (speed <= 60) {
             System.out.println("Если скорость " + speed + ",то можно ездить спокойно");
         }
+
         // task4
         int age1 = 59;
         if (age1 >= 2 && age1 <= 6) {
